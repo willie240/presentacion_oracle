@@ -422,8 +422,8 @@ export default function OracleFormationsSite() {
                 <div className="relative mx-auto max-w-7xl">
                     <header className="mb-14 flex flex-wrap items-center justify-between gap-4 border-b border-white/10 pb-6">
                         <div className="flex items-center gap-3">
-                            <img src="/logo.png" alt="Alura logo" className="h-10 w-auto" />
-                            <img src="/alura.png" alt="Alura Latam" className="w-auto" style={{mixBlendMode: "lighten", height: "45px"}} />
+                            <img src={`${import.meta.env.BASE_URL}logo.png`} alt="Alura logo" className="h-10 w-auto" />
+                            <img src={`${import.meta.env.BASE_URL}alura.png`} alt="Alura Latam" className="w-auto" style={{mixBlendMode: "lighten", height: "45px"}} />
                         </div>
                         <Badge className="rounded-full bg-white px-4 py-1.5 font-semibold text-[#312D2A] hover:bg-white">IA • Dados • Automação • OCI</Badge>
                     </header>
